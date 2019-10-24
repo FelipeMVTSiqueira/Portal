@@ -11,7 +11,13 @@
     <?php include_once("padrao/header.php") ?>   
     <div class=container>
         <h1>PRAIA DE MARESIAS</h1>
-        <p><a href="previsao.php">VOLTAR</a></p>
+        <nav>
+            <ul class="nav justify-content-between">
+                <li class="nav-link"><a href="baleia.php">PRAIA ANTERIOR</a></li>
+                <li class="nav-link"><a href="previsao.php">VOLTAR</a></li>
+                <li class="nav-link"><a href="pauba.php">PROXIMA PRAIA</a></li>
+            </ul>
+        </nav>
             <div class="d-flex flex-row mr-3">
                 <img src="imagens/surfmaresias.png" class="img-fluid" style="width: 400px;" alt="responsive image">
                 <div class="container ml-3">
