@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <?php include_once("padrao/header.php") ?>
+    <?php include_once("padrao/headerIndex.php") ?>
 
     <div id="demo" class="carousel slide" data-ride="carousel">
 

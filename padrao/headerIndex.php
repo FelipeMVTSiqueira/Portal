@@ -1,13 +1,6 @@
-<!-- header padrão para todas as outras páginas do portal.-->
-<!-- Falta aumentar um pouco o tamanho do campo de busca, e melhorar a posição da navbar, deixano o logo como um aside ao lado das duas linhas do header.-->
-
 <?php include_once("config/variaveis.php") ?>
 <body>
-<a href="index.php"><section class="d-flex justify-content-center align-items-center mb-3">
-                <img src="imagens/Logo_white.png" class="img-fluid" style="position: absolute; height: 36%;" alt="foto de capa">
-                <img src="imagens/capapa.png" class="img-fluid">
-            </section></a>
-        <div class="container-fluid mb-2">
+        <div class="container-fluid my-2">
             <div class="d-flex">
                 <a href="index.php"><img src="imagens/Logo_degrade.png" class="justify-content-start mr-5" style="height: 50px;"></a>
                 <input type="text" class="form-control" style="width: fill; align-self-center;" data-type="search" placeholder="Procurar no Portal do Surf">

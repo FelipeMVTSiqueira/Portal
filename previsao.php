@@ -10,7 +10,8 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
-    <?php include_once("padrao/header.php") ?>   
+    <?php include_once("padrao/header.php") ?>
+    
     <nav class="container d-flex justify-content-center mt-3">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>Clique aqui e selecione a praia mais próxima!</h3></a>
