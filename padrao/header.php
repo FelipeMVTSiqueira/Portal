@@ -4,15 +4,15 @@
 <?php include_once("config/variaveis.php") ?>
 <body>
 <a href="index.php"><section class="d-flex justify-content-center align-items-center mb-3">
-                <img src="imagens/Logo_white.png" class="img-fluid" style="position: absolute; height: 36%;" alt="foto de capa">
+                <img src="imagens/Logo_white.png" class="img-fluid" style="position: absolute; height: 30%;" alt="foto de capa">
                 <img src="imagens/capapa.png" class="img-fluid">
             </section></a>
-        <div class="container-fluid mb-2">
-            <div class="d-flex">
-                <a href="index.php"><img src="imagens/Logo_degrade.png" class="justify-content-start mr-5" style="height: 50px;"></a>
+            <div class="container-fluid p-0 mb-4">
+            <div class="d-flex shadow-sm mt-3 px-2">
+                <a href="index.php"><img src="imagens/Logo_degrade.png" class="justify-content-start mr-5 mb-2 pl-2" style="height: 50px;"></a>
                 <input type="text" class="form-control" style="width: fill; align-self-center;" data-type="search" placeholder="Procurar no Portal do Surf">
                 <form class="form-inline">
-                    <button class="btn btn-outline-success mb-3 mx-3" type="submit" dir="center" style="vertical-align: bottom; background-color: transparent;">Busca</button>
+                    <button class="btn btn-primary ml-3 mb-4" type="submit">Busca</button>
                 </form>
                 <div class=container style="width: 300px;" >
                 <nav class="d-flex justify-content-end">
@@ -37,9 +37,20 @@
                         </div>
             </div>
             <nav >
-                <ul class="nav justify-content-between">
-                    <li class="nav-item">
-                        <a class="nav-link" href="previsao.php"><img src="imagens/previcon.png" class="p-2" style="width: 45px; height: 45px;">Previsão</a>
+                <ul class="nav justify-content-between shadow-sm">
+                <li class="nav-item">
+                        <a class="nav-link dropdown-toggle pr-0 mr-0" href="previsao.php" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="imagens/previcon.png" class="p-1" style="width: 45px; height: 45px;">Previsão</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="previsao.php">PREVISAO</a>
+                            <a class="dropdown-item" href="riviera.php">Riviera</a>
+                            <a class="dropdown-item" href="barradouna.php">Barra do Una</a>
+                            <a class="dropdown-item" href="juquehy.php">Juquehy</a>
+                            <a class="dropdown-item" href="baleia.php">Baleia</a>
+                            <a class="dropdown-item" href="maresias.php">Maresias</a>
+                            <a class="dropdown-item" href="pauba.php">Paúba</a>
+                            <a class="dropdown-item" href="guaeca.php">Quaecá</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="caronas.php"><img src="imagens/caronicon.png" class="p-2" style="width: 45px; height: 45px;">Carona</a>

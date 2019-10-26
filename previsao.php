@@ -12,19 +12,21 @@
 <body>
     <?php include_once("padrao/header.php") ?>
     
-    <nav class="container d-flex justify-content-center mt-3">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><h3>Clique aqui e selecione a praia mais próxima!</h3></a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="riviera.php">Riviera</a>
-                            <a class="dropdown-item" href="barradouna.php">Barra do Una</a>
-                            <a class="dropdown-item" href="juquehy.php">Juquehy</a>
-                            <a class="dropdown-item" href="baleia.php">Baleia</a>
-                            <a class="dropdown-item" href="maresias.php">Maresias</a>
-                            <a class="dropdown-item" href="pauba.php">Paúba</a>
-                            <a class="dropdown-item" href="guaeca.php">Quaecá</a>
-                        </div>
-</nav>
+    <div class="container-fluid justify-content-center my-3 px-0 mx-0">
+        <div class="container">
+            <h1>PREVISAO</h1>
+        </div>
+        <div class="container d-flex justify-content-center">
+            <img src="imagens/previgraca.jpeg" class="rounded" style="width: 50%">
+        </div>
+        <h2 class="shadow-sm p-3 mb-4 bg-white rounded">Selecione a praia e saiba das ondas!</h2>
+        <div class="container d-flex justify-content-center mb-0 pb-0">
+            <img src="imagens/tabela1.png" class="mt-0 pt-0">
+        </div>
+        <div class="container d-flex justify-content-center mb-0 pb-0">
+            <img src="imagens/tabela2.png" class="mt-0 pt-0">
+        </div>
+</div>
     <?php include_once("padrao/footer.php") ?>   
 </body>
 </html>
